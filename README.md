@@ -12,10 +12,16 @@ Data was collected over four weeks, twice a day, tracking the following variable
 - **Weather**: The type of weather during each price check (Sunny, Cloudy, Rainy).
 - **Buying Pattern**: Whether or not the turnips were bought in bulk. For this project, bulk is considered three bunches of turnips, and not bulk is considered one bunch of turnips.
 ## Analysis
+### Research Questions
+- **What is the best day of the week to resell turnips?**
+- **How does the time of day (morning vs. afternoon) affect resell prices?**
+- **Does weather influence turnip resell prices?**
+- **How does buying in bulk impact resell prices?**
 ### Data Cleaning
 I started by loading the necessary packages and importing the data I collected from the .xlsx file into R using the `read_excel` function. After that, I gave the variables their names and appropriately converted each data type. Finally, I had a few NA values that I omitted using the `na.omit()` function. To finish up, I checked the structure of the data to ensure everything loaded correctly and then saved the file.
-### 
-### 
+### EDA
+### Statistical Analysis
+### Results and Findings
 ## Usage
 ## Future Improvements
 While collecting my data, I noticed a few areas of my research that were flawed. Here are some things that I would change if I decided to do this project again:
