@@ -12,10 +12,13 @@ Data was collected over four weeks, twice a day, tracking the following variable
 - **Weather**: The type of weather during each price check (Sunny, Cloudy, Rainy).
 - **Buying Pattern**: Whether or not the turnips were bought in bulk. For this project, bulk is considered three bunches of turnips, and not bulk is considered one bunch of turnips.
 ## Analysis
-### Time of Day
-### Weather Conditions
-### Buying Patterns
+### Data Cleaning
+I started by loading the necessary packages and importing the data I collected from the .xlsx file into R using the `read_excel` function. After that, I gave the variables their names and appropriately converted each data type. Finally, I had a few NA values that I omitted using the `na.omit()` function. To finish up, I checked the structure of the data to ensure everything loaded correctly and then saved the file.
+### 
+### 
 ## Usage
 ## Future Improvements
 While collecting my data, I noticed a few areas of my research that were flawed. Here are some things that I would change if I decided to do this project again:
 - **Time of Day Issues**: In my project, I have the time of day listed as either morning or afternoon since the turnip prices change at noon. This causes issues if the time of day recording the price is not consistent because the weather may not be the same the entire morning or afternoon. In the future, I would change the Time of Day variable to a certain time in the morning and a certain time in the evening.
+- **Weather Issues**: This is an extension of the Time of Day Issues. In the future, I would either remove this variable or use it in a different way.
+- **Length of Data Collection**: Of course, having more data is better. If I were to do this analysis again in the future, I would like to collect data over a 6-8 week period versus a 4 week period to increase accuracy.
