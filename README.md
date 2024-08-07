@@ -18,8 +18,9 @@ Data was collected over four weeks, twice a day, tracking the following variable
 - **Does weather influence turnip resell prices?**
 - **How does buying in bulk impact resell prices?**
 ### Data Cleaning
-I started by loading the necessary packages and importing the data I collected from the .xlsx file into R using the `read_excel` function. After that, I gave the variables their names and appropriately converted each data type. Finally, I had a few NA values that I omitted using the `na.omit()` function. To finish up, I checked the structure of the data to ensure everything loaded correctly and then saved the file.
+I started by loading the necessary packages and importing the data I collected from the .xlsx file into R using the `read_excel` function. After that, I gave the variables their names and appropriately converted each data type. Finally, I had a few NA values that I omitted using the `na.omit` function. To finish up, I checked the structure of the data to ensure everything loaded correctly and then saved the file.
 ### EDA
+I created one graph per research question to show initial trends and to gather preliminary visualization information. For this, I relied heavily on the `ggplot2` package in RStudio, utilizing functions like `geom_histogram` and `geom_boxplot` to create respective plots (in Animal Crossing-themed colors!). 
 ### Statistical Analysis
 ### Results and Findings
 ## Usage
